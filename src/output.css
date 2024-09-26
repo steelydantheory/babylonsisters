@@ -820,10 +820,6 @@ table {
   margin-bottom: 3rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -896,6 +892,37 @@ table {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.formkit-form {
+  border: 0 !important;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.formkit-header {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: #2C3131 !important
+}
+
+.formkit-subheader {
+  font-size: 1rem !important;
+  color: #565A5A !important;
+}
+
+.formkit-header > h2 {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.formkit-input {
+  border-color: #D5D6D6 !important;
+  background-color: #FAFAFA !important;
+}
+
+.formkit-submit {
+  background-color: #348383 !important;
 }
 
 @media (min-width: 640px) {

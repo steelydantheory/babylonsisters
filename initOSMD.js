@@ -1,5 +1,12 @@
 window.onload = function() {
 
+  function deleteCursorImages() {
+    var cursorImages = document.querySelectorAll('[id^="cursorImg-"]');
+    cursorImages.forEach(function(img) {
+      img.parentNode.removeChild(img);
+    });
+  }
+
   var fileNames = [
     "ExBbMajor",
     "ExBbMinor",
@@ -47,7 +54,7 @@ window.onload = function() {
 
       const partNames = (fileName === "BSIntro1") ? true : false; 
       const timeSig = (fileName === "BSIntro1") ? true : false; 
-      const zoom = (window.innerWidth > 767) ? 0.75 : 0.5;
+      const zoom = (window.innerWidth > 767) ? 0.65 : 0.5;
 
       fetch('musicxml/' + fileName + '.musicxml')
       .then(response => response.text())
@@ -70,9 +77,11 @@ window.onload = function() {
 
           if (scoresRendered === totalScores) {
             window.dispatchEvent(new Event('osmd-render-complete'));
+            deleteCursorImages();
           }
         });
       });
     }
   });
 }
+

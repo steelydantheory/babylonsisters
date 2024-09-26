@@ -235,3 +235,34 @@
   }
 
 }
+
+.formkit-form {
+  border: 0 !important;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.formkit-header {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: #2C3131 !important
+}
+
+.formkit-subheader {
+  font-size: 1rem !important;
+  color: #565A5A !important;
+}
+
+.formkit-header > h2 {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.formkit-input {
+  border-color: #D5D6D6 !important;
+  background-color: #FAFAFA !important;
+}
+
+.formkit-submit {
+  background-color: #348383 !important;
+}

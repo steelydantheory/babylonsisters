@@ -231,7 +231,6 @@
   }
 
   .content .article-credit {
-    @apply text-sm;
     @apply text-gray-80;
   }
 

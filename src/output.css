@@ -803,8 +803,6 @@ table {
 }
 
 .content .article-credit {
-  font-size: 14px;
-  line-height: 21px;
   --tw-text-opacity: 1;
   color: rgb(86 90 90 / var(--tw-text-opacity));
 }

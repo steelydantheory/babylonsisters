@@ -721,6 +721,7 @@ table {
   --tw-text-opacity: 1;
   color: rgb(52 131 131 / var(--tw-text-opacity));
   text-decoration-line: underline;
+  text-decoration-color: #99C0C0;
 }
 
 .content aside {
@@ -801,6 +802,17 @@ table {
   }
 }
 
+.content .article-credit {
+  font-size: 14px;
+  line-height: 21px;
+  --tw-text-opacity: 1;
+  color: rgb(86 90 90 / var(--tw-text-opacity));
+}
+
+.content .article-credit strong {
+  font-weight: 500;
+}
+
 .example {
   opacity: 0.9;
   margin-top: 2rem;
@@ -818,6 +830,10 @@ table {
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mb-12 {

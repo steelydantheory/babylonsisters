@@ -156,6 +156,7 @@
   .content a {
     @apply text-green;
     @apply underline;
+    @apply decoration-green-50;
   }
 
   .content aside {
@@ -227,6 +228,15 @@
       @apply border-gray-5;
       @apply bg-white;
     }
+  }
+
+  .content .article-credit {
+    @apply text-sm;
+    @apply text-gray-80;
+  }
+
+  .content .article-credit strong {
+    @apply font-medium;
   }
 
   .example {

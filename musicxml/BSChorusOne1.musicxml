@@ -149,8 +149,8 @@
    </harmony>
    <note color="#000000" default-x="106" default-y="-15">
     <pitch>
-     <step>C</step>
-     <octave>4</octave>
+     <step>A</step>
+     <octave>3</octave>
     </pitch>
     <duration>128</duration>
     <instrument id="P1-I1" />

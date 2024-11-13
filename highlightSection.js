@@ -2,11 +2,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const contentsMenu = document.querySelector("#contents");
   const links = contentsMenu.querySelectorAll("a");
   const sections = Array.from(links).map(link => document.querySelector(link.getAttribute("href")));
-  let sectionPositions = [];
 
+  let sectionPositions = [];
   function calculatePositions() {
     sectionPositions = sections.map(section => section.offsetTop);
-    console.log(sectionPositions);
   }
 
   function highlightCurrentSection() {
